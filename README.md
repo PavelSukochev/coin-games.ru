@@ -1,6 +1,7 @@
 Аналог == который можно в легкую сделать по функциям 1в1 как в ТЗ и при этом быстрее чем писать в слепую сервер.
 
-https://pavelsukochev.github.io/coin-games.ru/
+Тест - ПК версия HTML5 -> https://pavelsukochev.github.io/coin-games.ru/
+Это мои личные проекты, где я баловался с механикой.
 
 1 ссылка - TimeHero_1 (скриншот 1 - как в оригинале)
 
@@ -8,6 +9,8 @@ https://pavelsukochev.github.io/coin-games.ru/
 сесть в транспорт кнопка F 
 Zoom кнопки на нумпаде + и -
 
-Это мои личные проекты, где я баловался с механикой.
+скриншот 1
+![Иллюстрация к проекту]([https://github.com/PavelSukochev/VVP-Platformer/blob/main/Screens/1.png](https://pavelsukochev.github.io/coin-games.ru/Screenshot_1.png))
+скриншот 2
+![Иллюстрация к проекту]([https://github.com/PavelSukochev/VVP-Platformer/blob/main/Screens/1.png](https://pavelsukochev.github.io/coin-games.ru/Screenshot_2.png))
 
-Но если интересует конкретно ТЗ + исходники, то надо запускать сервер на тест, чтоб можно было пощупать механику с оригинального клиента ТЗ
