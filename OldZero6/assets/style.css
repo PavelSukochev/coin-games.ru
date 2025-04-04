@@ -1,0 +1,98 @@
+body {
+    --bs-body-bg: #c2baad;
+    font-family: Verdana, sans-serif;
+    min-height: 100vh;
+}
+
+#header {
+    position: relative;
+    background: url(
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAAXNSR0IArs4c6QAAAB5JREFUGFdjPLhzbQMDFDCCOJePb3qma+knBebAZAAHgAv5q4veIAAAAABJRU5ErkJggg==
+    ) repeat;
+    height: 50vh;
+    padding-top: 20px;
+    border-bottom: 4px ridge #000000b8;
+}
+#header .bg{
+    position: absolute;
+    background: url('header.jpg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+#header .container {
+    padding: 10px 20px 5px;
+    border-radius: 4px;
+    border: 4px ridge #000000b8;
+}
+
+.box {
+    padding: 10px 10px 30px;
+    background: #ffeed3bd;
+    border: 4px ridge #000000b8;
+    z-index: 1;
+    color: #000;
+    position: relative;
+}
+
+.box .text-center{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.chevron::before {
+    position: absolute;
+    transform: rotate(20deg);
+    top: 10px;
+    right: 10px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.chevron5::before {
+    content: url("chevron/5.png");
+}
+
+.chevron7::before {
+    content: url("chevron/7.png");
+}
+
+.chevron9::before {
+    content: url("chevron/9.png");
+}
+
+.chevron18::before {
+    content: url("chevron/18.png");
+}
+
+.chevron20::before {
+    content: url("chevron/20.png");
+}
+
+.chevron22::before {
+    content: url("chevron/22.png");
+}
+
+section#info, section#compare {
+    padding-top: 20px;
+}
+
+A {
+    background: #9d958a;
+    border: 2px ridge #000000b8;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+A:hover, A:active {
+    text-decoration: underline
+}
+
+.red{
+    color: #a90000;
+}
